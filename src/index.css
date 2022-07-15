@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gainsboro;
+  background-image: url(pexels-bella-white-635279.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+nav {
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  text-align: center;
+  padding: 20px 100px;
+  background: rgba(73, 70, 70, 0.464);
+ 
+ 
+ 
+}
+
+nav:hover{
+    background-color: rgba(37, 34, 34, 0.359);
+}
+
+nav h1 {
+  cursor: pointer;
+  font-size: 32px;
+  transition: transform 0.5s;
+  text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
+
+}
