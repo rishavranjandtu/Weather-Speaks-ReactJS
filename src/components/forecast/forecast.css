@@ -48,6 +48,10 @@
   grid-template-columns: auto auto;
   padding: 5px 15px;
   row-gap: 0;
+  background-color: rgba(207, 203, 203, 0.299);
+}
+.daily-details-grid:hover{
+  background-color: #a69c9c9a;
 }
 
 .daily-details-grid-item {
@@ -58,7 +62,7 @@
 }
 
 .daily-details-grid-item label:first-child {
-  color: #757575;
+  color: #454040;
 }
 
 .daily-details-grid-item label:last-child {
